@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abhijit Raut — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <header class="fade-in">
+      <div class="brand">
+        <div class="logo float">AR</div>
+        <div class="title">
+          <h1>Abhijit Raut</h1>
+          <p>1st year Electrical Engineering • Sant Gadge Baba Amravati University</p>
+        </div>
+      </div>
+      <div class="nav-actions">
+        <button class="ghost" onclick="scrollToSection('#projects')">Projects</button>
+        <button class="btn" onclick="scrollToSection('#contact')">Contact</button>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" aria-label="hero">
+      <div class="bg" style="background-image:url('1.jpg')"></div>
+      <div class="hero-inner container">
+        <div class="hero-left fade-in delay-1">
+          <div class="tag">@rautabhijit_</div>
+          <h2>MY<br>PORT-<br>FOLIO</h2>
+          <p>Designs, projects, and a quick look at my skills spanning electrical engineering and IT / web development.</p>
+        </div>
+        <div class="hero-right fade-in delay-2">
+          <div style="background:rgba(255,255,255,0.04);padding:14px;border-radius:10px;display:inline-block">
+            <strong style="display:block;font-size:18px">Professional Summary</strong>
+            <small style="color:var(--muted)">First-year Electrical Engineering student interested in technical & IT fields.</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Two-column summary with image (image 2.jpg) -->
+    <section class="two-col container fade-in delay-2" id="projects">
+      <div class="art">
+        <img src="https://images.pexels.com/photos/8204503/pexels-photo-8204503.jpeg" alt="engineering art">
+      </div>
+      <div class="summary">
+        <h3>Professional Summary</h3>
+        <p>I am Abhijit Raut, a first-year Electrical Engineering student at Sant Gadge Baba Amravati University. I have keen interest in the technical field and IT. I am eager to develop practical skills, build projects, and grow in both electrical and software domains.</p>
+        <p style="margin-top:14px;color:var(--muted)"><strong>Education:</strong> 12th HSC passed; pursuing Electrical Engineering and a short CS/IT degree.</p>
+      </div>
+    </section>
+
+    <!-- Experience with soft background image 3.jpg -->
+    <section class="experience fade-in delay-3">
+      <div class="container">
+        <h3 style="margin:0 0 14px 0;color:var(--nav)">Experience</h3>
+        <div class="experience-grid">
+          <div class="exp-card">
+            <h4>PENDING — XYZ</h4>
+            <ul>
+              <li>DIV</li>
+              <li>DIV</li>
+            </ul>
+          </div>
+          <div class="exp-card">
+            <h4>PENDING — XYZ</h4>
+            <ul>
+              <li>NAV</li>
+              <li>NAV</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills timeline (image 5.jpg) -->
+    <section class="skills-section fade-in" aria-label="skills">
+      <div class="skills-title">
+        <h3>Skills</h3>
+      </div>
+      <div class="timeline">
+        <div class="skill-item">
+          <div class="skill-dot pulse"></div>
+          <div class="skill-label">Web Development</div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-dot"></div>
+          <div class="skill-label">Programming Knowledge</div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-dot"></div>
+          <div class="skill-label">Problem-Solving</div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-dot"></div>
+          <div class="skill-label">Leadership</div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-dot"></div>
+          <div class="skill-label">Communication</div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-dot"></div>
+          <div class="skill-label">Time Management</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Footer -->
+    <footer class="container">
+      <div id="contact" style="display:flex;flex-direction:column;gap:8px;align-items:center;padding:22px 10px">
+        <div style="font-weight:700">Contact</div>
+        <div style="color:var(--muted)">rautabhijit0739@gmail.com · +91 70578 35275</div>
+        <div style="margin-top:6px">
+          <button class="btn" onclick="copyEmail()">Copy Email</button>
+        </div>
+      </div>
+      <div style="margin-top:18px;color:var(--muted)">THAAANNKK YOOOOUUUUUUU</div>
+    </footer>
+
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,14 +1,14 @@
 :root {
     --bg: #ffffff;
     --nav: #0b2b60;
-    --accent: #0b2b60;
+    --accent: #0b0872;
     --muted: #6b7280;
     --card: #f8fafc;
     --glass: rgba(11, 43, 96, 0.06);
     --maxw: 1200px;
     --ff: "Poppins", "Segoe UI", Roboto, Arial, sans-serif;
 }
-
+/* #0b2b60 */
 * {
     box-sizing: border-box
 }
@@ -51,7 +51,7 @@ header {
 .logo {
     width: 64px;
     height: 64px;
-    border-radius: 12px;
+    border-radius: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -246,14 +246,16 @@ header {
     right: 0;
     top: 0;
     bottom: 0;
-    width: 48%;
-    background-image: url('3.jpg');
+    width: 100%;
+    background-image: url('https://images.pexels.com/photos/218863/pexels-photo-218863.jpeg');
     background-size: cover;
     background-position: center;
-    opacity: .08;
+    opacity: 0.88;
     border-top-right-radius: 22px;
     border-bottom-right-radius: 22px;
-    pointer-events: none
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+    pointer-events: none;
 }
 
 .experience-grid {
@@ -304,11 +306,11 @@ header {
     right: 0;
     bottom: -40px;
     height: 280px;
-    background-image: url('5.jpg');
+    background-image: url('https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg');
     background-size: cover;
     background-position: center;
-    opacity: .08;
-    pointer-events: none
+    opacity: .38;
+    pointer-events: none;
 }
 
 .skills-title {

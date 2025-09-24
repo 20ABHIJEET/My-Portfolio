@@ -33,7 +33,7 @@ a {
     padding: 20px
 }
 
-/* ---------- Header ---------- */
+
 header {
     display: flex;
     align-items: center;
@@ -98,7 +98,7 @@ header {
     color: var(--muted)
 }
 
-/* ---------- Hero (uses image 1.jpg) ---------- */
+
 .hero {
     position: relative;
     border-radius: 20px;
@@ -184,7 +184,7 @@ header {
     font-weight: 600
 }
 
-/* ---------- Two-column section ---------- */
+
 .two-col {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -229,7 +229,7 @@ header {
     line-height: 1.6
 }
 
-/* ---------- Experience cards ---------- */
+
 .experience {
     margin: 24px 0;
     border-radius: 22px;
@@ -289,7 +289,7 @@ header {
     color: var(--muted)
 }
 
-/* ---------- Skills timeline ---------- */
+
 .skills-section {
     padding: 32px 16px;
     margin-top: 28px;
@@ -407,7 +407,7 @@ header {
     font-size: 14px
 }
 
-/* ---------- Footer ---------- */
+
 footer {
     padding: 22px 0;
     text-align: center;
@@ -433,7 +433,7 @@ footer.container {
     }
 }
 
-/* ---------- Responsive ---------- */
+
 @media (max-width:1000px) {
     .hero-left h2 {
         font-size: 44px
@@ -482,7 +482,7 @@ footer.container {
     }
 }
 
-/* ---------- Extreme Fade-in Animation ---------- */
+
 .fade-in {
     opacity: 0;
     transform: translateY(36px) scale(0.94) skewY(-4deg);
@@ -520,7 +520,7 @@ footer.container {
     }
 }
 
-/* ---------- Floating Logo Extreme ---------- */
+
 .logo.float {
     animation: maxFloat 3.8s ease-in-out infinite alternate;
 }
@@ -543,7 +543,7 @@ footer.container {
     }
 }
 
-/* ---------- Button tap-scale + shimmer ---------- */
+
 .btn,
 .ghost {
     position: relative;
@@ -575,7 +575,6 @@ footer.container {
     left: 0;
 }
 
-/* subtle floating */
 .float {
     animation: float 5s ease-in-out infinite
 }
@@ -593,3 +592,4 @@ footer.container {
         transform: translateY(0)
     }
 }
+
